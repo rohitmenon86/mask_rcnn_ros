@@ -15,3 +15,5 @@ float32[] scores
 # Instance masks as Image
 sensor_msgs/Image[] masks
 
+# Unsigned integer IDs for each bounding box. Zero value is invalid.
+uint64[] instance_ids
